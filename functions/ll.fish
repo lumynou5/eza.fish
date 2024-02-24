@@ -1,3 +1,3 @@
-function ll --wraps 'eza --icons --long' --description 'List directory contents with more details'
-    command eza --icons --long $argv
+function ll --wraps 'eza --icons --git --long' --description 'List directory contents with more details'
+    command eza --icons --git --long $argv
 end

@@ -1,3 +1,3 @@
-function la --wraps 'eza --icons --long --all' --description 'List directory contents including dot files'
-    command eza --icons --long --all $argv
+function la --wraps 'eza --icons --git --long --all' --description 'List directory contents including dot files'
+    command eza --icons --git --long --all $argv
 end
