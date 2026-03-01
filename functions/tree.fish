@@ -1,3 +1,3 @@
-function tree --wraps 'eza --icons --tree' --description 'List file tree.'
+function tree --description 'List file tree.' --wraps eza
     command eza --icons --tree $argv
 end

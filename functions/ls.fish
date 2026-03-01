@@ -1,3 +1,3 @@
-function ls --wraps 'eza --icons --grid' --description 'List directory contents'
+function ls --description 'List directory contents' --wraps eza
     command eza --icons --grid $argv
 end
